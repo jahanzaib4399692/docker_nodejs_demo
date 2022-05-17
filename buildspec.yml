@@ -5,7 +5,7 @@ phases:
     commands:
       #build
       - echo Building...
-      - docker build -t test
+      - docker build -t test .
 artifacts:
   files:
     "**/*"

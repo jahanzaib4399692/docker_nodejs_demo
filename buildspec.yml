@@ -1,12 +1,6 @@
 version: 0.2
 
 phases: 
-  install:
-  pre_build:
-    commands:
-      - echo Installing source NPM dependencies...
-      - npm install
-      - npm install unit.js
   build:
     commands:
       #build
